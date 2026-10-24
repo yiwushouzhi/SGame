@@ -1,0 +1,169 @@
+{
+  "items": {
+    "white_junk": {
+      "name": "白色垃圾",
+      "type": "material",
+      "rarity": "white",
+      "color": "#cfc7b8",
+      "max_stack": 99,
+      "desc": "从废墟里翻出来的塑料和碎纸，也许只能拿来拆。"
+    },
+    "scrap": {
+      "name": "金属废料",
+      "type": "material",
+      "rarity": "white",
+      "color": "#8f97a3",
+      "max_stack": 99,
+      "desc": "弯掉的铁片、螺丝和弹簧。昆特眼里的宝贝。"
+    },
+    "cloth": {
+      "name": "布料",
+      "type": "material",
+      "rarity": "white",
+      "color": "#b99a76",
+      "max_stack": 99,
+      "desc": "从破窗帘和校服上撕下来的布条。"
+    },
+    "bottle": {
+      "name": "玻璃瓶",
+      "type": "material",
+      "rarity": "white",
+      "color": "#7fb7a8",
+      "max_stack": 99,
+      "desc": "汽水喝完剩下的空瓶，装得下火。"
+    },
+    "rag": {
+      "name": "破布",
+      "type": "material",
+      "rarity": "white",
+      "color": "#a38b6d",
+      "max_stack": 99,
+      "desc": "塞进瓶口的破布，点燃就是信号。"
+    },
+    "void_shard": {
+      "name": "虚空碎片",
+      "type": "material",
+      "rarity": "blue",
+      "color": "#b46cff",
+      "max_stack": 99,
+      "desc": "裂隙里崩落的紫色晶片，摸起来像在呼吸。"
+    },
+    "pure_void_shard": {
+      "name": "纯净虚空碎片",
+      "type": "material",
+      "rarity": "yellow",
+      "color": "#d9a3ff",
+      "max_stack": 99,
+      "desc": "提纯后的虚空晶片，紫光不再乱闪。"
+    },
+    "small_hp": {
+      "name": "小型生命药水",
+      "type": "consumable",
+      "rarity": "white",
+      "color": "#c7363f",
+      "max_stack": 20,
+      "heal": 35,
+      "desc": "立即回复 35 点生命。味道像草莓味创可贴。"
+    },
+    "small_sanity": {
+      "name": "小型理智药水",
+      "type": "consumable",
+      "rarity": "blue",
+      "color": "#8b5cf6",
+      "max_stack": 20,
+      "sanity": 28,
+      "desc": "立即回复 28 点理智，把脑内的低语压下去。"
+    },
+    "mix_potion": {
+      "name": "混合药水",
+      "type": "consumable",
+      "rarity": "yellow",
+      "color": "#e0b23c",
+      "max_stack": 15,
+      "heal": 30,
+      "sanity": 22,
+      "desc": "魔方调配的应急药：回复 30 生命与 22 理智。"
+    },
+    "molotov": {
+      "name": "燃烧瓶",
+      "type": "consumable",
+      "rarity": "blue",
+      "color": "#ff8a3d",
+      "max_stack": 10,
+      "use": "molotov",
+      "desc": "使用后向鼠标位置投出，落地形成 8 秒灼烧区。"
+    },
+    "bear_trap": {
+      "name": "捕兽夹",
+      "type": "consumable",
+      "rarity": "white",
+      "color": "#b8c4cc",
+      "max_stack": 10,
+      "use": "bear_trap",
+      "desc": "使用后在脚下放置捕兽夹，踩中的怪物被定身。"
+    }
+  },
+  "equipment_bases": {
+    "weapon": {
+      "slot": "weapon",
+      "base_stat": {"damage": 6.0},
+      "names": {"white": "残破钉棒", "blue": "改造钉棒", "yellow": "稀有钉棒"},
+      "desc": "胶带缠柄、钉子朝外的棒球棍。"
+    },
+    "helmet": {
+      "slot": "helmet",
+      "base_stat": {"armor": 3.0},
+      "names": {"white": "破洞头盔", "blue": "加固头盔", "yellow": "拾荒者头盔"},
+      "desc": "滑板头盔，裂缝里塞了报纸。"
+    },
+    "chest": {
+      "slot": "chest",
+      "base_stat": {"armor": 5.0, "max_hp": 5.0},
+      "names": {"white": "破旧夹克", "blue": "缝补夹克", "yellow": "巡逻夹克"},
+      "desc": "缝满补丁的连帽卫衣，兜帽能挡一点风。"
+    },
+    "gloves": {
+      "slot": "gloves",
+      "base_stat": {"crit": 2.0},
+      "names": {"white": "露指手套", "blue": "铆钉手套", "yellow": "拾荒手套"},
+      "desc": "指节缠着胶带的劳保手套。"
+    },
+    "boots": {
+      "slot": "boots",
+      "base_stat": {"speed": 0.15},
+      "names": {"white": "开胶运动鞋", "blue": "绑带运动鞋", "yellow": "跑酷鞋"},
+      "desc": "鞋底磨平了，但还能跑。"
+    },
+    "amulet": {
+      "slot": "amulet",
+      "base_stat": {"max_sanity": 5.0},
+      "names": {"white": "旧挂坠", "blue": "护身符", "yellow": "抗噪挂坠"},
+      "desc": "一块刻着涂鸦的挂坠，能让人稍微清醒。"
+    },
+    "ring": {
+      "slot": "ring",
+      "base_stat": {"crit": 1.0},
+      "names": {"white": "铁丝戒指", "blue": "螺母戒指", "yellow": "裂隙指环"},
+      "desc": "用螺母和铁丝拧成的戒指。"
+    }
+  },
+  "rarity_multiplier": {"white": 1.0, "blue": 1.45, "yellow": 2.0},
+  "rarity_chinese": {"white": "白色残破", "blue": "蓝色改造", "yellow": "黄色稀有"},
+  "affix_pool": [
+    {"stat": "damage", "label": "伤害", "min": 1.0, "max": 4.0, "suffix": ""},
+    {"stat": "max_hp", "label": "最大生命", "min": 3.0, "max": 10.0, "suffix": ""},
+    {"stat": "armor", "label": "护甲", "min": 1.0, "max": 5.0, "suffix": ""},
+    {"stat": "crit", "label": "暴击率", "min": 1.0, "max": 3.0, "suffix": "%"},
+    {"stat": "speed", "label": "移速", "min": 0.05, "max": 0.15, "suffix": ""},
+    {"stat": "max_sanity", "label": "最大理智", "min": 2.0, "max": 6.0, "suffix": ""}
+  ],
+  "slot_chinese": {
+    "weapon": "主武器",
+    "helmet": "头盔",
+    "chest": "衣服",
+    "gloves": "手套",
+    "boots": "鞋子",
+    "amulet": "挂件",
+    "ring": "戒指"
+  }
+}

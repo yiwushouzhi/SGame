@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/player/jack_controller.gd" id="1_jack"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_body"]
+radius = 13.0
+
+[node name="Jack" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_jack")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_body")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.6, 1.6)
+position_smoothing_enabled = true
+position_smoothing_speed = 8.0

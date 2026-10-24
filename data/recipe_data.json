@@ -1,0 +1,57 @@
+[
+  {
+    "id": "upgrade_blue",
+    "name": "装备改造",
+    "hint": "3 件白色装备 → 随机蓝色装备",
+    "inputs": [
+      {"type": "equipment", "rarity": "white"},
+      {"type": "equipment", "rarity": "white"},
+      {"type": "equipment", "rarity": "white"}
+    ],
+    "output": {"type": "equipment", "rarity": "blue", "count": 1}
+  },
+  {
+    "id": "mix_potion",
+    "name": "混合药水",
+    "hint": "2 生命小药 + 1 理智小药 → 混合药水",
+    "inputs": [
+      {"id": "small_hp"},
+      {"id": "small_hp"},
+      {"id": "small_sanity"}
+    ],
+    "output": {"id": "mix_potion", "count": 1}
+  },
+  {
+    "id": "purify_shard",
+    "name": "碎片提纯",
+    "hint": "3 虚空碎片 → 纯净虚空碎片",
+    "inputs": [
+      {"id": "void_shard"},
+      {"id": "void_shard"},
+      {"id": "void_shard"}
+    ],
+    "output": {"id": "pure_void_shard", "count": 1}
+  },
+  {
+    "id": "trap_batch",
+    "name": "捕兽夹批量",
+    "hint": "3 金属废料 → 捕兽夹 ×2",
+    "inputs": [
+      {"id": "scrap"},
+      {"id": "scrap"},
+      {"id": "scrap"}
+    ],
+    "output": {"id": "bear_trap", "count": 2}
+  },
+  {
+    "id": "molotov_batch",
+    "name": "燃烧瓶调配",
+    "hint": "玻璃瓶 + 破布 + 废料 → 燃烧瓶 ×2",
+    "inputs": [
+      {"id": "bottle"},
+      {"id": "rag"},
+      {"id": "scrap"}
+    ],
+    "output": {"id": "molotov", "count": 2}
+  }
+]
